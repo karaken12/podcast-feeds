@@ -1,0 +1,24 @@
+---
+title: Podcast Title
+description: Description
+baseurl: sample/
+pubDate: 2014-11-14 12:00:00
+entries:
+  - title: Entry 1
+    description: The first entry
+    pubDate: 2014-11-13 12:00:00
+    url: 01.mp3
+    tags: [tag1, tag2]
+    categories: [cat1, cat2]
+
+  - title: Entry 2
+    description: The second entry
+    pubDate: 2014-11-14 12:00:00
+    url: 02.mp3
+    tags:
+      - tag1
+      - tag3
+    categories:
+      - cat2
+      - cat3
+

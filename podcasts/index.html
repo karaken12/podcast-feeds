@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+    {% for podcast_pair in site.data.podcasts %}
+      {% assign podcast = podcast_pair[1] %}
+      <div class="podcast">
+        <h2><a href="{{ podcast.baseurl }}">{{ podcast.title }}</a></h2>
+        <img src="{{ podcast.baseurl }}{{ podcast.imageurl }}" />
+        <div class="description">
+          {{ podcast.description }}
+        </div>
+      </div>
+    {% endfor %}
+
+</div>
