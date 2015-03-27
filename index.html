@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Podcasts</h1>
 
     {% for podcast_hash in site.data.podcasts %}
       {% assign name = podcast_hash[0] %}
       {% assign podcast = podcast_hash[1] %} 
       <div class="podcast">
         <h2><a href="{{ name }}.xml">{{ podcast.title }}</a></h2>
-        <img src="{{ podcast.baseurl }}{{ podcast.imageurl }}" />
+        <img src="files/{{ name }}/cover.jpg" />
         <div class="description">
           {{ podcast.description }}
         </div>
