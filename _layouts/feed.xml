@@ -7,27 +7,27 @@ layout: null
     <title>{{ podcast.title | xml_escape }}</title>
     <description><![CDATA[{{ podcast.description }}]]></description>
     <itunes:summary><![CDATA[{{ podcast.description }}]]></itunes:summary>
-    <link>{{ site.url }}{{ site.baseurl }}{{ podcast.baseurl }}</link>
-    <atom:link href="{{ "feed.xml" | prepend: podcast.baseurl | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <link>{{ site.url }}{{ site.baseurl }}{{ page.name }}</link>
+    <atom:link href="{{ page.name | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
 {% comment %}
     <pubDate>{{ podcast.pubDate | date_to_rfc822 }}</pubDate>
 {% endcomment %}
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    <itunes:image href="{{ site.url }}{{ site.baseurl }}{{ podcast.baseurl }}{{ podcast.imageurl }}"/>
+    <itunes:image href="{{ site.url }}{{ site.baseurl }}files/{{ page.short_name }}/cover.jpg"/>
     {% for entry in podcast.entries %}
       <item>
         <title>{{ entry.title | xml_escape }}</title>
         <description><![CDATA[{{ entry.description }}]]></description>
         <itunes:summary><![CDATA[{{ entry.description }}]]></itunes:summary>
         <pubDate>{{ entry.pubDate | date_to_rfc822 }}</pubDate>
-        <link>{{ entry.url | prepend: podcast.baseurl | prepend: site.baseurl | prepend: site.url | uri_escape }}</link>
-        <guid isPermaLink="true">{{ entry.url | prepend: podcast.baseurl | prepend: site.baseurl | prepend: site.url | uri_escape }}</guid>
+        <link>{{site.url}}{{site.baseurl}}files/{{page.short_name}}/{{entry.url | uri_escape }}</link>
+        <guid isPermaLink="true">{{ entry.url | prepend: "/" | prepend: page.short_name | prepend: "files/" | prepend: site.baseurl | prepend: site.url | uri_escape }}</guid>
         {% comment %} length! and type?
         <enclosure url="" length="42252290" type="audio/mpeg" />
         {% endcomment %}
-        <enclosure url="{{ entry.url | prepend: podcast.baseurl | prepend: site.baseurl | prepend: site.url | uri_escape }}" length="{{ entry.length }}" type="audio/mpeg" />
+        <enclosure url="{{ entry.url | prepend: "/" | prepend: page.short_name | | prepend: 'files/' | prepend: site.baseurl | prepend: site.url | uri_escape }}" length="{{ entry.length }}" type="audio/mpeg" />
         {% for tag in entry.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}

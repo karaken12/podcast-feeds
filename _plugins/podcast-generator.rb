@@ -9,6 +9,7 @@ module Jekyllpodcasts
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'feed.xml')
       self.data['podcast'] = podcast
+      self.data['short_name'] = name
     end
   end
 
