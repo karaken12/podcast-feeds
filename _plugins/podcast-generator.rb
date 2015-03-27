@@ -8,8 +8,18 @@ module Jekyllpodcasts
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'feed.xml')
+
+      # Prepare podcast data
+      prepare_data(name, podcast)
+
       self.data['podcast'] = podcast
       self.data['short_name'] = name
+    end
+
+    def prepare_data(name, podcast)
+      for entry in podcast['entries']
+        entry['full_url'] = File.join(@site.config['url'], @site.baseurl, "files", name, URI.escape(entry['url']))
+      end
     end
   end
 
