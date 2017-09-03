@@ -131,153 +131,154 @@ entries:
   description: Kenneth Williams, Hugh Paddick, Betty Marsden and Douglas Smith go round without poorly Kenneth Horne. From Christmas Day 1966.
 
 ### Season 3 ###
-#- title: S03 - E01 - The Plastic Max
-#  url: Round The Horne - S03 - E01 - The Plastic Max.mp3
-#  pubDate: 1967-02-12 00:00:00
-#  description: 
-#- title: S03 - E02 - The Three Musketeers - Part 1
-#  url: Round The Horne - S03 - E02 - The Three Musketeers - Part 1.mp3
-#  pubDate: 1967-02-19 00:00:00
-#  description: 
-#- title: S03 - E03 - The Three Musketeers - Part 2
-#  url: Round The Horne - S03 - E03 - The Three Musketeers - Part 2.mp3
-#  pubDate: 1967-02-26 00:00:00
-#  description: 
-#- title: S03 - E04 - Lipharvest Of The River
-#  url: Round The Horne - S03 - E04 - Lipharvest Of The River.mp3
-#  pubDate: 1967-03-05 00:00:00
-#  description: 
-#- title: S03 - E05 - How The Bullet Proof Vest Was Won
-#  url: Round The Horne - S03 - E05 - How The Bullet Proof Vest Was Won.mp3
-#  pubDate: 1967-03-12 00:00:00
-#  description: 
-#- title: S03 - E06 - Trilby
-#  url: Round The Horne - S03 - E06 - Trilby.mp3
-#  pubDate: 1967-03-19 00:00:00
-#  description: 
-#- title: S03 - E07 - The Admirable Loombucket - The Sea Cruise
-#  url: Round The Horne - S03 - E07 - The Admirable Loombucket - The Sea Cruise.mp3
-#  pubDate: 1967-03-26 00:00:00
-#  description: 
-#- title: S03 - E08 - The Admirable Loombucket - Lost Island Of Gonga
-#  url: Round The Horne - S03 - E08 - The Admirable Loombucket - Lost Island Of Gonga.mp3
-#  pubDate: 1967-04-02 00:00:00
-#  description: 
-#- title: S03 - E09 - The Gruntfuttock Saga
-#  url: Round The Horne - S03 - E09 - The Gruntfuttock Saga.mp3
-#  pubDate: 1967-04-09 00:00:00
-#  description: 
-#- title: S03 - E10 - Gaslight Son Of Flicker
-#  url: Round The Horne - S03 - E10 - Gaslight Son Of Flicker.mp3
-#  pubDate: 1967-04-16 00:00:00
-#  description: 
-#- title: S03 - E11 - The Phantom Of Bogmouth Hip
-#  url: Round The Horne - S03 - E11 - The Phantom Of Bogmouth Hip.mp3
-#  pubDate: 1967-04-23 00:00:00
-#  description: 
-#- title: S03 - E12 - A Man Is Two Foot Tall
-#  url: Round The Horne - S03 - E12 - A Man Is Two Foot Tall.mp3
-#  pubDate: 1967-04-30 00:00:00
-#  description: 
-#- title: S03 - E13 - Young Horne With A Man
-#  url: Round The Horne - S03 - E13 - Young Horne With A Man.mp3
-#  pubDate: 1967-05-07 00:00:00
-#  description: 
-#- title: S03 - E14 - The Maltese Brass Monkey
-#  url: Round The Horne - S03 - E14 - The Maltese Brass Monkey.mp3
-#  pubDate: 1967-05-14 00:00:00
-#  description: 
-#- title: S03 - E15 - The Big Top
-#  url: Round The Horne - S03 - E15 - The Big Top.mp3
-#  pubDate: 1967-05-21 00:00:00
-#  description: 
-#- title: S03 - E16 - The Muffplaster Saga - Part 1, The Discovery Of America
-#  url: Round The Horne - S03 - E16 - The Muffplaster Saga - Part 1, The Discovery Of America.mp3
-#  pubDate: 1967-05-28 00:00:00
-#  description: 
-#- title: S03 - E17 - The Muffplaster Saga - Part 2, The Boxer
-#  url: Round The Horne - S03 - E17 - The Muffplaster Saga - Part 2, The Boxer.mp3
-#  pubDate: 1697-06-04 00:00:00
-#  description: 
-#- title: S03 - E18 - The Muffplaster Saga - Part 3, The Bullfighter
-#  url: Round The Horne - S03 - E18 - The Muffplaster Saga - Part 3, The Bullfighter.mp3
-#  pubDate: 1967-06-11 00:00:00
-#  description: 
-#- title: S03 - E19 - The Palone Ranger
-#  url: Round The Horne - S03 - E19 - The Palone Ranger.mp3
-#  pubDate: 1967-06-18 00:00:00
-#  description: 
-#- title: S03 - E20 - The Head Of The BBC Who Came In From The Cold
-#  url: Round The Horne - S03 - E20 - The Head Of The BBC Who Came In From The Cold.mp3
-#  pubDate: 1967-06-25 00:00:00
-#  description: 
-#- title: S03 - E21 - Cinderella
-#  url: Round The Horne - S03 - E21 - Cinderella.mp3
-#  pubDate: 1967-12-24 00:00:00
-#  description: 
+- title: S03 - E01 - The Plastic Max
+  url: Round The Horne - S03 - E01 - The Plastic Max.mp3
+  pubDate: 1967-02-12 00:00:00
+  description: 1/20 Kenneth Horne stars in war romp The Plastic Max, and Jules and Sandy bewail their parts.
+- title: S03 - E02 - The Three Musketeers - Part 1
+  url: Round The Horne - S03 - E02 - The Three Musketeers - Part 1.mp3
+  pubDate: 1967-02-19 00:00:00
+  description: 2/20 Kenneth Horne crosses swords in The Three Musketeers, while Bona Law handles his briefs.
+- title: S03 - E03 - The Three Musketeers - Part 2
+  url: Round The Horne - S03 - E03 - The Three Musketeers - Part 2.mp3
+  pubDate: 1967-02-26 00:00:00
+  description: 3/20 Kenneth Horne swashbuckles in The Three Musketeers, plus Julian and Sandy go cruising.
+- title: S03 - E04 - Lipharvest Of The River
+  url: Round The Horne - S03 - E04 - Lipharvest Of The River.mp3
+  pubDate: 1967-03-05 00:00:00
+  description: 4/20 Kenneth Horne heads up the river, and swings by Julian and Sandy's Bona Antiques.
+- title: S03 - E05 - How The Bullet Proof Vest Was Won
+  url: Round The Horne - S03 - E05 - How The Bullet Proof Vest Was Won.mp3
+  pubDate: 1967-03-12 00:00:00
+  description: 5/20 Kenneth Horne heads a gangster romp, and asks Julian and Sandy to find a Bona Soulmate.
+- title: S03 - E06 - Trilby
+  url: Round The Horne - S03 - E06 - Trilby.mp3
+  pubDate: 1967-03-19 00:00:00
+  description: 6/20 Kenneth Horne heads a Bohemian Paris romp and Julian and Sandy report for the Daily Polari
+- title: S03 - E07 - The Admirable Loombucket - The Sea Cruise
+  url: Round The Horne - S03 - E07 - The Admirable Loombucket - The Sea Cruise.mp3
+  pubDate: 1967-03-26 00:00:00
+  description: 7/20 Kenneth Horne sets sail in a seafaring romp and bona caterers Julian and Sandy plan a 'do'
+- title: S03 - E08 - The Admirable Loombucket - Lost Island Of Gonga
+  url: Round The Horne - S03 - E08 - The Admirable Loombucket - Lost Island Of Gonga.mp3
+  pubDate: 1967-04-02 00:00:00
+  description: 8/20 Kenneth Horne is all at sea, plus advice from homeopathic practitioners Julian and Sandy.
+- title: S03 - E09 - The Gruntfuttock Saga
+  url: Round The Horne - S03 - E09 - The Gruntfuttock Saga.mp3
+  pubDate: 1967-04-09 00:00:00
+  description: 9/20 Kenneth Horne and company present a special tribute to J Peasmold Gruntfuttock.
+- title: S03 - E10 - Gaslight Son Of Flicker
+  url: Round The Horne - S03 - E10 - Gaslight Son Of Flicker.mp3
+  pubDate: 1967-04-16 00:00:00
+  description: 10/20 Kenneth Horne probes nocturnal doings, and Julian and Sandy turn bona film producers.
+- title: S03 - E11 - The Phantom Of Bogmouth Hip
+  url: Round The Horne - S03 - E11 - The Phantom Of Bogmouth Hip.mp3
+  pubDate: 1967-04-23 00:00:00
+  description: 11/20 Murder in a musical hall for Kenneth Horne, while Julian and Sandy are showbiz accountants
+- title: S03 - E12 - A Man Is Two Foot Tall
+  url: Round The Horne - S03 - E12 - A Man Is Two Foot Tall.mp3
+  pubDate: 1967-04-30 00:00:00
+  description: 12/20 Kenneth Williams saddles up, but Kenneth Horne seeks advice on Bona Bijou Tourettes.
+- title: S03 - E13 - Young Horne With A Man
+  url: Round The Horne - S03 - E13 - Young Horne With A Man.mp3
+  pubDate: 1967-05-07 00:00:00
+  description: 13/20 Kenneth Horne blows his own trumpet, plus Julian and Sandy's psychic gift of second vada.
+- title: S03 - E14 - The Maltese Brass Monkey
+  url: Round The Horne - S03 - E14 - The Maltese Brass Monkey.mp3
+  pubDate: 1967-05-14 00:00:00
+  description: 14/20 Trouble at sea for Kenneth Horne, and Julian and Sandy go trolling on a bona fox hunt.
+- title: S03 - E15 - The Big Top
+  url: Round The Horne - S03 - E15 - The Big Top.mp3
+  pubDate: 1967-05-21 00:00:00
+  description: 15/20 Kenneth Horne's got a big top, and your actual cob is on Julian and Sandy's bona menu.
+- title: S03 - E16 - The Muffplaster Saga - Part 1, The Discovery Of America
+  url: Round The Horne - S03 - E16 - The Muffplaster Saga - Part 1, The Discovery Of America.mp3
+  pubDate: 1967-05-28 00:00:00
+  description: 16/20 Kenneth Horne leads a family saga, while Julian and Sandy offer guided tripettes of London
+- title: S03 - E17 - The Muffplaster Saga - Part 2, The Boxer
+  url: Round The Horne - S03 - E17 - The Muffplaster Saga - Part 2, The Boxer.mp3
+  pubDate: 1697-06-04 00:00:00
+  description: 17/20 Rambling Syd Rumpo sings, and it's a Horne from home for Kenneth at the Bona Guest House.
+- title: S03 - E18 - The Muffplaster Saga - Part 3, The Bullfighter
+  url: Round The Horne - S03 - E18 - The Muffplaster Saga - Part 3, The Bullfighter.mp3
+  pubDate: 1967-06-11 00:00:00
+  description: 18/20 Kenneth Horne heads to a Spanish bullring, while Julian and Sandy start up Bona TV.
+- title: S03 - E19 - The Palone Ranger
+  url: Round The Horne - S03 - E19 - The Palone Ranger.mp3
+  pubDate: 1967-06-18 00:00:00
+  description: 19/20 Kenneth Horne welcomes the Palone Ranger, plus bona secrets of the BBC are revealed.
+- title: S03 - E20 - The Head Of The BBC Who Came In From The Cold
+  url: Round The Horne - S03 - E20 - The Head Of The BBC Who Came In From The Cold.mp3
+  pubDate: 1967-06-25 00:00:00
+  description: 20/20 Kenneth Horne anchors a sinister BBC battle, and how to get massive lallies at Body Bona.
+
+- title: Christmas Special - Cinderella
+  url: Round The Horne - S03 - E21 - Cinderella.mp3
+  pubDate: 1967-12-24 00:00:00
+  description: Baron Hardup's daughters battle to go to Prince Charming's ball.
 
 ### Season 4 ###
-#- title: S04 - E01 - Dr Doosweet BA
-#  url: Round The Horne - S04 - E01 - Dr Doosweet BA.mp3
-#  pubDate: 1968-02-25 00:00:00
-#  description: 
-#- title: S04 - E02 - Thoroughly Modern Willy
-#  url: Round The Horne - S04 - E02 - Thoroughly Modern Willy.mp3
-#  pubDate: 1968-03-03 00:00:00
-#  description: 
-#- title: S04 - E03 - Frankenstein's Monster
-#  url: Round The Horne - S04 - E03 - Frankenstein's Monster.mp3
-#  pubDate: 1968-03-10 00:00:00
-#  description: 
-#- title: S04 - E04 - The Knights Of Camelot
-#  url: Round The Horne - S04 - E04 - The Knights Of Camelot.mp3
-#  pubDate: 1968-03-17 00:00:00
-#  description: 
-#- title: S04 - E05 - Relatively Grand Prix
-#  url: Round The Horne - S04 - E05 - Relatively Grand Prix.mp3
-#  pubDate: 1968-03-24 00:00:00
-#  description: 
-#- title: S04 - E06 - Big Broads Don't Squeal
-#  url: Round The Horne - S04 - E06 - Big Broads Don't Squeal.mp3
-#  pubDate: 1968-03-31 00:00:00
-#  description: 
-#- title: S04 - E07 - The Celluloid Jungle
-#  url: Round The Horne - S04 - E07 - The Celluloid Jungle.mp3
-#  pubDate: 1968-04-07 00:00:00
-#  description: 
-#- title: S04 - E08 - Around The World In Ten Minutes
-#  url: Round The Horne - S04 - E08 - Around The World In Ten Minutes.mp3
-#  pubDate: 1968-04-14 00:00:00
-#  description: 
-#- title: S04 - E09 - Journey To Uranus
-#  url: Round The Horne - S04 - E09 - Journey To Uranus.mp3
-#  pubDate: 1968-04-21 00:00:00
-#  description: 
-#- title: S04 - E10 - Apache Story
-#  url: Round The Horne - S04 - E10 - Apache Story.mp3
-#  pubDate: 1968-04-28 00:00:00
-#  description: 
-#- title: S04 - E11 - Escape From Stalag Limpwrist
-#  url: Round The Horne - S04 - E11 - Escape From Stalag Limpwrist.mp3
-#  pubDate: 1968-05-05 00:00:00
-#  description: 
-#- title: S04 - E12 - I Showed Them In Fleet Street
-#  url: Round The Horne - S04 - E12 - I Showed Them In Fleet Street.mp3
-#  pubDate: 1968-05-12 00:00:00
-#  description: 
-#- title: S04 - E13 - Continuum Medicum Romanum
-#  url: Round The Horne - S04 - E13 - Continuum Medicum Romanum.mp3
-#  pubDate: 1968-05-19 00:00:00
-#  description: 
-#- title: S04 - E14 - Beau
-#  url: Round The Horne - S04 - E14 - Beau.mp3
-#  pubDate: 1968-05-26 00:00:00
-#  description: 
-#- title: S04 - E15 - Bona Prince Charlie
-#  url: Round The Horne - S04 - E15 - Bona Prince Charlie.mp3
-#  pubDate: 1968-06-02 00:00:00
-#  description: 
-#- title: S04 - E16 - He, Son Of She
-#  url: Round The Horne - S04 - E16 - He, Son Of She.mp3
-#  pubDate: 1968-06-09 00:00:00
-#  description: 
+- title: S04 - E01 - Dr Doosweet BA
+  url: Round The Horne - S04 - E01 - Dr Doosweet BA.mp3
+  pubDate: 1968-02-25 00:00:00
+  description: Kenneth Horne is a doctor who talks to animals, tune into wonderful Radio Balls Pond Road and Julian and Sandy troll west to The Lazy Bona Ranch.
+- title: S04 - E02 - Thoroughly Modern Willy
+  url: Round The Horne - S04 - E02 - Thoroughly Modern Willy.mp3
+  pubDate: 1968-03-03 00:00:00
+  description: Kenneth Horne in a roaring 1920s film spoof 'Thoroughly Modern Willy', Rambling Syd Rumpo sings of a nadger and Julian and Sandy come over all transcendental with Bona Gurumat.
+- title: S04 - E03 - Frankenstein's Monster
+  url: Round The Horne - S04 - E03 - Frankenstein's Monster.mp3
+  pubDate: 1968-03-10 00:00:00
+  description: Monstrous goings on for Kenneth Horne with Frankenstein, more from wonderful Radio Balls Pond Road, while Julian and Sandy hit the bona ski slopes.
+- title: S04 - E04 - The Knights Of Camelot
+  url: Round The Horne - S04 - E04 - The Knights Of Camelot.mp3
+  pubDate: 1968-03-17 00:00:00
+  description: A funny turn round the table with 'The Knights of Camelot' and a bona peek in Kenneth Horne's wardrobe, courtesy of Julian and Sandy.
+- title: S04 - E05 - Relatively Grand Prix
+  url: Round The Horne - S04 - E05 - Relatively Grand Prix.mp3
+  pubDate: 1968-03-24 00:00:00
+  description: Announcer Douglas Smith is taken for a spin in 'Relatively Grand Prix' - and at the Bona Male Model Agency, Julian and Sandy sign up some brand new talent.
+- title: S04 - E06 - Big Broads Don't Squeal
+  url: Round The Horne - S04 - E06 - Big Broads Don't Squeal.mp3
+  pubDate: 1968-03-31 00:00:00
+  description: Kenneth Horne's in for a shock from sneaky Kenneth Williams in 'Big Broads Don't Squeal' - and bona gifts galore from Julian and Sandy.
+- title: S04 - E07 - The Celluloid Jungle
+  url: Round The Horne - S04 - E07 - The Celluloid Jungle.mp3
+  pubDate: 1968-04-07 00:00:00
+  description: Kenneth Horne hits The Celluloid Jungle and waltzes off for some strictly Bona Ballroom tuition from Julian and Sandy.
+- title: S04 - E08 - Around The World In Ten Minutes
+  url: Round The Horne - S04 - E08 - Around The World In Ten Minutes.mp3
+  pubDate: 1968-04-14 00:00:00
+  description: In 'Around The World in Ten Minutes' Douglas Smith plays the world, while Julian and Sandy are bursting into 'Bona Songs'.
+- title: S04 - E09 - Journey To Uranus
+  url: Round The Horne - S04 - E09 - Journey To Uranus.mp3
+  pubDate: 1968-04-21 00:00:00
+  description: Kenneth Horne blasts off boldly in 'Journey to Uranus', a ditty from Rambling Sid Rumpo and 'Bona Books' with Julian and Sandy.
+- title: S04 - E10 - Apache Story
+  url: Round The Horne - S04 - E10 - Apache Story.mp3
+  pubDate: 1968-04-28 00:00:00
+  description: Kenneth Horne is the wise old chief in 'The Apache Story'. But is Kenneth Williams a pseudonym? And exactly how will Julian and Sandy 'Keep Britain Bona'?
+- title: S04 - E11 - Escape From Stalag Limpwrist
+  url: Round The Horne - S04 - E11 - Escape From Stalag Limpwrist.mp3
+  pubDate: 1968-05-05 00:00:00
+  description: Kenneth Horne escapes Stalag Limpwrist, Rambling Syd Rumpo sings of a maiden's nodes and a visit to Bona Abbey with Julian and Sandy.
+- title: S04 - E12 - I Showed Them In Fleet Street
+  url: Round The Horne - S04 - E12 - I Showed Them In Fleet Street.mp3
+  pubDate: 1968-05-12 00:00:00
+  description: Kenneth Horne is making Fleet Street headlines - and pays a visit to Julian and Sandy's Bona Private Detective Agency.
+- title: S04 - E13 - Continuum Medicum Romanum
+  url: Round The Horne - S04 - E13 - Continuum Medicum Romanum.mp3
+  pubDate: 1968-05-19 00:00:00
+  description: Five Go Mad In Ancient Rome, shock news from 'Woman of the Year' - and Kenneth Horne discovers Julian and Sandy are multilingual.
+- title: S04 - E14 - Beau
+  url: Round The Horne - S04 - E14 - Beau.mp3
+  pubDate: 1968-05-26 00:00:00
+  description: Englishman 'Beau' joins the Foreign Legion to forget... and Time & Motion efficiency experts, Julian and Sandy look for efficiencies at the BBC.
+- title: S04 - E15 - Bona Prince Charlie
+  url: Round The Horne - S04 - E15 - Bona Prince Charlie.mp3
+  pubDate: 1968-06-02 00:00:00
+  description: Crofter Kenneth Horne meets Bona Prince Charlie, Rambling Syd Rumpo sings of artefacts - and bona advertising Julian and Sandy-style.
+- title: S04 - E16 - He, Son Of She
+  url: Round The Horne - S04 - E16 - He, Son Of She.mp3
+  pubDate: 1968-06-09 00:00:00
+  description: Listeners have their say - and there's a bona surprise for Julian and Sandy.
