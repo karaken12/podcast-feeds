@@ -1,3 +1,5 @@
+require 'rest_client'
+
 module Jekyllpodcasts
   class PodcastFeed < Jekyll::Page
     def initialize(site, base, dir, name, podcast)
@@ -18,7 +20,8 @@ module Jekyllpodcasts
 
     def prepare_data(name, podcast)
       for entry in podcast['entries']
-        entry['full_url'] = File.join(@site.config['url'], @site.baseurl, "files", name, URI.escape(entry['url']))
+        entry['full_url'] = File.join(@site.config['file_base_url'], name, URI.escape(entry['url']))
+        entry['length'] = RestClient.head(entry['full_url']).headers[:content_length]
       end
     end
   end

@@ -15,7 +15,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    <itunes:image href="{{ site.url }}{{ site.baseurl }}files/{{ page.short_name }}/cover.jpg"/>
+    <itunes:image href="{{ site.file_base_url }}{{ page.short_name }}/cover.jpg"/>
     {% for entry in podcast.entries %}
       <item>
         <title>{{ entry.title | xml_escape }}</title>
