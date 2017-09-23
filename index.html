@@ -10,7 +10,10 @@ layout: default
       {% assign name = podcast_hash[0] %}
       {% assign podcast = podcast_hash[1] %} 
       <div class="podcast">
-        <h2><a href="{{ name }}.xml">{{ podcast.title }}</a></h2>
+        <h2>
+          <a href="{{ name }}.html">{{ podcast.title }}</a>
+          <span class="rss"><a href="{{ name }}.xml">feed</a></span>
+        </h2>
         <img src="{{ site.file_base_url}}{{ name }}/cover.jpg" />
         <div class="description">
           {{ podcast.description }}

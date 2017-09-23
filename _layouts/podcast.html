@@ -1,0 +1,29 @@
+---
+layout: default
+---
+    {% assign podcast = page.podcast %}
+    <h1 class="title">{{ podcast.title }}</h1>
+    <p class="pubDate">{{ site.time | date_to_rfc822 }}</p>
+    <p class="generator">Jekyll v{{ jekyll.version }}</p>
+    <p class="description">{{ podcast.description }}</p>
+    <img src="{{ site.file_base_url }}{{ page.short_name }}/cover.jpg"/>
+    {% for entry in podcast.entries %}
+      <div class"item">
+        <h2 class="title">
+          <a href="{{ entry.full_url }}">{{ entry.title | xml_escape }}</a>
+        </h2>
+        <p class="pubDate">{{ entry.pubDate | date_to_rfc822 }}</p>
+        <p class="description">{{ entry.description }}</p>
+        {% comment %}
+        <enclosure url="{{ entry.full_url }}" length="{{ entry.length }}" type="audio/mpeg" />
+        {% endcomment %}
+        <ul>
+        {% for tag in entry.tags %}
+        <li class="category">{{ tag }}</li>
+        {% endfor %}
+        {% for cat in entry.categories %}
+        <li class="category">{{ cat | xml_escape }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
