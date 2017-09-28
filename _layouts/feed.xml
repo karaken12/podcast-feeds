@@ -22,9 +22,9 @@ layout: null
         <description><![CDATA[{{ entry.description }}]]></description>
         <itunes:summary><![CDATA[{{ entry.description }}]]></itunes:summary>
         <pubDate>{{ entry.pubDate | date_to_rfc822 }}</pubDate>
-        <link>{{ entry.full_url }}</link>
-        <guid isPermaLink="true">{{ entry.full_url }}</guid>
-        <enclosure url="{{ entry.full_url }}" length="{{ entry.length }}" type="audio/mpeg" />
+        <link>{{ entry.full_url | xml_escape }}</link>
+        <guid isPermaLink="true">{{ entry.full_url | xml_escape }}</guid>
+        <enclosure url="{{ entry.full_url | xml_escape }}" length="{{ entry.length }}" type="audio/mpeg" />
         {% for tag in entry.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
