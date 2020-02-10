@@ -23,7 +23,10 @@ layout: null
         <itunes:summary><![CDATA[{{ entry.description }}]]></itunes:summary>
         <pubDate>{{ entry.pubDate | date_to_rfc822 }}</pubDate>
         <link>{{ entry.full_url | xml_escape }}</link>
-        <guid isPermaLink="true">{{ entry.full_url | xml_escape }}</guid>
+{% comment %}
+        <guid isPermaLink="true">{{ page.name | prepend: site.baseurl | prepend : site.url | xml_escape }}/{{ entry.url }}</guid>
+{% endcomment %}
+        <guid isPermaLink="true">{{ entry.permalink | xml_escape }}</guid>
         <enclosure url="{{ entry.full_url | xml_escape }}" length="{{ entry.length }}" type="audio/mpeg" />
         {% for tag in entry.tags %}
         <category>{{ tag | xml_escape }}</category>

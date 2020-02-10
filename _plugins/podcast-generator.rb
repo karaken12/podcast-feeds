@@ -27,6 +27,7 @@ module Jekyllpodcasts
     def prepare_data(name, podcast)
       for entry in podcast['entries']
         entry['full_url'] = File.join(@site.config['file_base_url'], name, URI.escape(entry['url']))
+        entry['permalink'] = File.join(@site.config['url'], @site.config['baseurl'], name, URI.escape(entry['url']))
         entry['length'] = get_headers(entry['full_url'])['content_length']
       end
     end
@@ -34,6 +35,7 @@ module Jekyllpodcasts
 
     def get_headers(url)
       if not(@header_cache.has_key?(url))
+puts "Getting header for #{url}"
         headers = RestClient.head(url).headers
         @header_cache[url] = headers.collect{|k,v| [k.to_s, v]}.to_h
         @write_cache = true
